@@ -14,7 +14,13 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
+  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
+  { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
+  { path: 'tipsandsafety', loadChildren: './tipsandsafety/tipsandsafety.module#TipsandsafetyPageModule' },
+  { path: 'map', loadChildren: './map/map.module#MapPageModule' },
+  { path: 'myemergency', loadChildren: './myemergency/myemergency.module#MyemergencyPageModule' }
 ];
 
 @NgModule({

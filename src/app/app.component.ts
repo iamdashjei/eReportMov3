@@ -16,9 +16,34 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'Timeline and Logs',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Map',
+      url: '/map',
+      icon: 'map'
+    },
+    {
+      title: 'Profile',
+      url: '/profile',
+      icon: 'person'
+    },
+    {
+      title: 'Tips and Safety',
+      url: '/tipsandsafety',
+      icon: 'book'
+    },
+    {
+      title: 'Settings',
+      url: '/settings',
+      icon: 'cog'
+    },
+    {
+      title: 'About',
+      url: '/about',
+      icon: 'information-circle'
     }
   ];
 

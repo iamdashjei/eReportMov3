@@ -1,5 +1,7 @@
 {
   "name": "eReportMov3",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

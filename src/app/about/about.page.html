@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title>About</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<!-- fab placed to the top end -->
+<ion-fab vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="presentEmergencyPage()">
+      <ion-icon name="medkit"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
